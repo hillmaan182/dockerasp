@@ -54,21 +54,8 @@ The project can be deployed on Back4App Containers. Refer to the [Back4App Docum
 
 - [ASP .NET](https://dotnet.microsoft.com/apps/aspnet)
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your-username/containers-asp-net-sample/tags).
-
-## Authors
-
-- **Your Name** - Initial work - [Your GitHub Username](https://github.com/your-username)
-
-See also the list of [contributors](https://github.com/your-username/containers-asp-net-sample/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License.
-&#124;
+
