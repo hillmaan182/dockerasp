@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /app
 
 # Copy and restore project files
-COPY YourProjectName.csproj .
+COPY containers-asp-net-sample.csproj .
 RUN dotnet restore
 
 # Copy the entire project and build
@@ -19,4 +19,4 @@ COPY --from=build /app/out ./
 EXPOSE 80
 
 # Set the entry point for the container
-ENTRYPOINT ["dotnet", "YourProjectName.dll"]
+ENTRYPOINT ["dotnet", "containers-asp-net-sample.dll"]
