@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace YourProjectNamespace.Controllers
+namespace containers_asp_net_sample.Controllers
 {
     public class HomeController : Controller
     {
@@ -10,3 +10,4 @@ namespace YourProjectNamespace.Controllers
         }
     }
 }
+
