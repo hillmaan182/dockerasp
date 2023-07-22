@@ -16,7 +16,7 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Expose port 80
-EXPOSE 56768
+EXPOSE 5000
 
 # Set the entry point for the container
 ENTRYPOINT ["dotnet", "containers-asp-net-sample.dll"]
