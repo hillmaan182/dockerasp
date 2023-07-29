@@ -11,10 +11,8 @@ COPY . .
 RUN dotnet publish -c Release -o out
 
 # Runtime stage
-FROM mcr.microsoft.com/dnet/aspotnet:5.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 WORKDIR /app
-
-# Copy the built project from the build stage
 COPY --from=build /app/out ./
 
 # Expose port 80
