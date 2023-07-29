@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\Views"
   ],
-  "SelectedNode": "\\C:\\Users\\binsa\\Source\\Repos\\containers-asp-net-sample",
+  "SelectedNode": "\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
